@@ -1,0 +1,51 @@
+MusicManager2 v2
+
+By Mikael Eiman <mikael@eiman.tv>
+
+What it is
+
+One day I got tired of looking for my MP3:s, so I wrote a little
+app that queried for them and presented them in a nice list,
+grouped by artist and album.
+
+Requirements
+
+* SoundPlay, a registered one if possible
+* Indexed Audio:Title and Audio:Artist attributes on the files
+you want to see in the list.
+
+Instructions
+
+Getting started
+
+First of all, the best way to run this is with a SoundPlay replicant
+embedded in your Desktop. Have a peek at the screenshot and
+you'll know what I mean.
+
+Run MusicManager2. It will now query for your music files
+and present them in a list. You will also get a playlist window.
+
+Drag and drop artists, albums or songs from the Tracks window
+to the Playlist window.
+
+Press Start in the Playlist window.
+
+The playlist will first select the top song in the upper list, start
+playing it and remove it from the list. If there are no songs in
+the upper list, a song is randomly selected from the bottom
+list (and it's not removed).
+
+Playlist manipulation
+
+You can remove files from the Playlist by selecting them and
+pressing you secondary mouse button. You'll get a little menu
+with the options Remove and Crop. Remove does what you'd
+expect, and Crop removes all files NOT selected.
+
+You can also save and load playlists. It is the list of random
+songs that is saved/loaded.
+
+Contact me
+
+Bug reports, feature requests, praise and hard earned cash
+can be sent to mikael@eiman.tv!
